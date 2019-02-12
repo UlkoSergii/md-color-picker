@@ -447,6 +447,8 @@ angular.module('mdColorPicker', [])
 				clickOutsideToClose: '=?',
 				skipHide: '=?',
 				preserveScope: '=?',
+				cancelText: '@?',
+				selectText: '@?',
 
 				// Advanced options
 				mdColorClearButton: '=?',
@@ -539,6 +541,8 @@ angular.module('mdColorPicker', [])
 						value: $scope.value,
 						defaultValue: $scope.default,
 						random: $scope.random,
+						cancelText: $scope.cancelText,
+						selectText: $scope.selectText,
 						clickOutsideToClose: $scope.clickOutsideToClose,
 						hasBackdrop: $scope.hasBackdrop,
 						skipHide: $scope.skipHide,
