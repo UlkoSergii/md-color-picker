@@ -913,7 +913,7 @@ angular.module('mdColorPicker', [])
 							$scope.random = options.random;
 
 							$scope.cancelText = options.cancelText;
-							$scope.selecText = options.selecText;
+							$scope.selectText = options.selectText;
 
 							$scope.mdColorAlphaChannel = options.mdColorAlphaChannel;
 							$scope.mdColorSpectrum = options.mdColorSpectrum;
